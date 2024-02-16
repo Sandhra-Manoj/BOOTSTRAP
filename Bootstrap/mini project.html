@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+</head>
+<style>
+    body{
+        background-image: url(Images.bs/background\ imggg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h2{
+      margin-top: 15px;
+      color: black;
+      text-align: center;
+      padding: 15px;
+      font-family: 'Abril Fatface', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Pacifico', cursive;
+    }
+    .container-fluid{
+        margin-top: 15px;
+        padding: 10px;
+    }
+    .card:hover{
+      border: 3px solid gray;
+    }
+    .carousel-inner{
+        margin-left: 325px;
+    }
+    .card{
+      margin: 10px;
+      text-align: center;
+    }
+    .card-body{
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+    .card-img-top{
+      border: 1px solid black;
+    }
+  .nav-tabs{
+    margin-left: 500px;
+  }
+  .nav-item:hover{
+    background-color: white;
+  }
+</style>
+<body>
+    <script src="js/bootstrap.min.js"></script>
+     
+          <h2>GADGETS</h2>
+
+    <div class="container">
+            <form class="d-flex" role="search">
+              <input class="form-control me-" type="search"placeholder="Search..." aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search <i class="bi bi-search"></i></button>
+            </form>
+          </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide "></button>
+        </div>
+        <div class="container-fluid">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images.bs/mobile.webp" class="d-block w-50">
+          </div>
+          <div class="carousel-item">
+            <img src="Images.bs/tv neww.jpg" class="d-block w-50">
+          </div>
+          <div class="carousel-item">
+            <img src="Images.bs/laptop new.jpg" class="d-block w-50">
+          </div>
+          <div class="carousel-item">
+            <img src="Images.bs/Refrigerator newww.jpg" class="d-block w-50">
+          </div>
+        </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="Images.bs/single watch.webp" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">WATCH</h5>
+           </div>
+        </div>
+        <div class="card">
+          <img src="Images.bs/airdopes new.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">AIRDOPES</h5>
+            </div>
+        </div>
+        <div class="card">
+          <img src="Images.bs/lap new.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">LAPTOP</h5>
+            </div>
+        </div>
+        <div class="card">
+          <img src="Images.bs/fridge neww.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">REFRIGERATOR</h5>
+            </div>
+        </div>
+        <div class="card">
+          <img src="Images.bs/tv.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">TELEVISION</h5>
+            </div>
+        </div>
+        <div class="card">
+          <img src="Images.bs/AC.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">AIR CONDITIONER</h5>
+            </div>
+        </div>
+        <div class="card">
+          <img src="Images.bs/washing machine new.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">WASHING MACHINE</h5>
+            </div>
+        </div>
+      </div>
+      <br>
+      
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><div class="bootstrap-icons"><i class="bi bi-house-door"></i>  Home</div></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Categories</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn text-primary position-relative">
+            <i class="bi bi-bell"></i>  Notifications
+            <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+              6
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-person-circle"></i>  Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-cart3"></i>  Cart</a>
+        </li>
+      </ul>
+
+</body>
+</html>
